@@ -1,30 +1,30 @@
 {
-  "authors": [
-    "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
-  ],
-  "version": "0.0.1",
-  "depends": [
-    "Test::META"
+  "source-url": "https://github.com/gfldex/raku-release-test.git",
+  "tags": [
   ],
   "resources": [
   ],
-  "name": "release-test",
-  "description": "",
-  "test-depends": [
-  ],
-  "tags": [
-  ],
-  "auth": "github:gfldex",
-  "production": false,
-  "build-depends": [
-  ],
+  "license": "Artistic-2.0",
+  "perl": "6.c",
+  "version": "0.0.2",
   "support": {
     "source": null
   },
-  "source-url": "https://github.com/gfldex/raku-release-test.git",
-  "meta-version": "0",
-  "perl": "6.c",
+  "meta-version": "1",
+  "description": "",
   "provides": {
   },
-  "license": "Artistic-2.0"
+  "depends": [
+    "Test::META"
+  ],
+  "test-depends": [
+  ],
+  "production": true,
+  "auth": "github:gfldex",
+  "name": "release-test",
+  "build-depends": [
+  ],
+  "authors": [
+    "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
+  ]
 }
